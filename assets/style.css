@@ -4,3 +4,31 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 60px;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-size: 13px;
+}
+
+header img {
+    width: 115px;
+    height: 35px;
+}
