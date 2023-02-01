@@ -204,3 +204,52 @@ header img {
     color: white;
     font-size: 15px;
 }
+
+footer {
+    height: 400px;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    font-size: 20px;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+    margin: 100px 0 0 70px;
+}
+
+.circle {
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: 70%;
+}
+
+.fcb {
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 30px;
+    opacity: 70%;
+}
+
+.footer-style {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 25px 100px 0 70px;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 2;
+    opacity: 70%;
+}
+
+.ph {
+    padding-right: 15px;
+}
+
+footer p {
+    line-height: 2;
+    opacity: 70%;
+    display: inline;
+}
